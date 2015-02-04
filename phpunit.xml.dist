@@ -22,6 +22,7 @@
     <filter>
         <blacklist>
             <file>./src/ExecuteException.php</file>
+            <file>./src/Execute.php</file>
         </blacklist>
     </filter>
     <logging>
