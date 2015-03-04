@@ -1,6 +1,6 @@
 {
     "name": "romeoz/rock-execute",
-    "description": "[READ ONLY] Execute module for Rock Framework",
+    "description": "Execute module for Rock Framework",
     "keywords": ["execute", "eval"],
     "type": "library",
     "license": "MIT",
@@ -17,8 +17,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "romeoz/rock-base" : "*@dev",
-        "romeoz/rock-helpers" : "*@dev"
+        "romeoz/rock-base" : "0.10.*"
     },
     "require-dev": {
         "phpunit/phpunit": "4.4.*"
@@ -30,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "0.9-dev"
+            "dev-master": "0.10-dev"
         }
     }
 }
